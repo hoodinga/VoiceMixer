@@ -916,7 +916,9 @@ export default function ProcessingStatus({ step, percent }) {
         <div
           className="h-full bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 
                      transition-all duration-500 ease-out flex items-center justify-center"
+          ````jsx
           style={{ width: `${percent}%` }}
+          ````
         >
           {percent > 10 && (
             <span className="text-white text-xs font-bold">
